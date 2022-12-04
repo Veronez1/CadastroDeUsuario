@@ -1,0 +1,77 @@
+html {
+    font-size: 14px;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+    .col-md-5 {
+        width: 100%;
+        display: flex;
+    }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: #fff;
+    min-height: 100vh;
+    min-width: 770px;
+}
+.control-label {
+    margin-top: 10px;
+}
+.formularioStyle {
+    width: 70%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 17px 55px 33px 55px;
+}
+.NomeFormEdit {
+    display: block;
+    font-family: Poppins-Bold;
+    font-size: 30px;
+    color: #333333;
+    line-height: 1.2;
+    margin-left: 19%;
+    font-weight: bold
+}
+.NomeFormCreate {
+    display: block;
+    font-family: Poppins-Bold;
+    font-size: 30px;
+    color: #333333;
+    line-height: 1.2;
+    margin-left: 33%;
+    font-weight: bold
+}
+.margin-top {
+    margin-top: 20px;
+}
+.width-botao {
+    width: 90%;
+    margin-left: 5%;
+}
+.margin-text{
+    margin-top:100px;
+}
+.corText {
+    color: #d51c59;
+}
+.margin-left{
+    margin-left:17%;
+}
+.margin-left-img {
+    margin-left: 10%;
+}
+.col-md-4 {
+    width: 600px;
+    display: -webkit-inline-box;
+}

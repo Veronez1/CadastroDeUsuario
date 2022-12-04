@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Bem vindo";
+}
+
+@model CadastroDeUsuario.Models.Usuario
+
+<main style="text-align: -webkit-center";>
+    <div class="margin-text">
+        <div style="justify-content: center;" class="col-md-5">
+            <div>
+                <h2>Bem vindo ao <span style="color: #d51c59;">Sistema de cadastro de usuário</span></h2>            
+            </div>
+        </div>
+        <img src="~/css/usuario.jpg" width="30%" />
+        <div>
+            <a href="https://localhost:7086/Usuarios" class="btn btn-danger margin-top">Ir para tela dos usuários</a>
+        </div>
+    </div>
+</main>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }

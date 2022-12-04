@@ -1,0 +1,52 @@
+﻿@model CadastroDeUsuario.Models.Usuario
+
+@{
+    ViewData["Title"] = "Criar novo usuário";
+}
+
+
+<div class="row margin-text">
+    <div class="col-md-5">
+        <img src="/css/usuario.jpg" alt="Figura de Cachorro" style="width:400px" display="inline">
+        <div class="formularioStyle">
+            <span class="NomeFormCreate">
+                Criar novo usuário
+            </span>
+
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" placeholder="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataNascimento" class="control-label"></label>
+                <input asp-for="DataNascimento" placeholder="Data de Nascimento" class="form-control" />
+                <span asp-validation-for="DataNascimento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" placeholder="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Senha" class="control-label"></label>
+                <input asp-for="Senha" placeholder="Senha" class="form-control" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Finalizar cadastro" class="btn btn-danger margin-top width-botao"/>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+<div>
+     <a asp-action="Index" class="btn btn-secondary margin-top">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
