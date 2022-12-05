@@ -12,20 +12,20 @@ namespace CadastroDeUsuario.Models
 
         [Column("Nome")]
         [Display(Name = "Nome")]
-        public string Nome { get; set; }
+        public string? Nome { get; set; }
 
         [Column("DataNascimento")]
         [Display(Name = "Data de Nascimento")]
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime DataNascimento { get; set; }
 
         [Column("Email")]
         [Display(Name = "Email")]
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         [Column("Senha")]
         [Display(Name = "Senha")]
-        public string Senha { get; set; }
+        public string? Senha { get; set; }
     }
 }
