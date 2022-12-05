@@ -16,6 +16,8 @@ namespace CadastroDeUsuario.Models
 
         [Column("DataNascimento")]
         [Display(Name = "Data de Nascimento")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime DataNascimento { get; set; }
 
         [Column("Email")]
