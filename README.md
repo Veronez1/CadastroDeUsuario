@@ -2,7 +2,7 @@
 
 <h4>Como rodar o projeto</h4>
 
-Baixe os pacotes Nuget no visual studio, lá em baixo tem minha versão do visual studio e do SDK para baixar para não dar erro de compatibidade.
+Baixe os pacotes Nuget no visual studio, lá em baixo tem minha versão do visual studio e do SDK para baixar, para não dar erro de compatibidade.
 
 ![nuget1](https://user-images.githubusercontent.com/87334467/205806984-be95596b-2844-487b-9bc1-ae697a726237.png)<br>
 
