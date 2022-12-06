@@ -23,7 +23,7 @@ Espere alguns segundos, para o projeto se ambientar e clonar tudo certinho, pois
 
 ![rodar1](https://user-images.githubusercontent.com/87334467/205807087-2f94a01e-1aae-42d7-8571-8b6bdcdc9825.png)<br>
 
-
+<hr>
 <h4>Rotas</h4>
 Para chegar na <strong>tela de usuários</strong> (acesse a rota https://localhost:7086/Usuarios)<br>
 Para chegar na <strong>tela de cadastrar usuários</strong> (acesse a rota https://localhost:7086/Usuarios/Create)<br>
